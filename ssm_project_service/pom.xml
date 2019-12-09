@@ -11,5 +11,17 @@
 
     <artifactId>ssm_project_service</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>cn.figo</groupId>
+            <artifactId>ssm_project_domain</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.figo</groupId>
+            <artifactId>ssm_project_dao</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>

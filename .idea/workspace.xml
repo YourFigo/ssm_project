@@ -1,12 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e53eb657-29ff-46ac-9a1d-8ebd434f8404" name="Default Changelist" comment="" />
+    <list default="true" id="e53eb657-29ff-46ac-9a1d-8ebd434f8404" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_dao/src/main/java/cn/figo/dao/IProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_domain/src/main/java/cn/figo/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_web/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_web/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_project_dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_dao/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_project_dao/ssm_project_dao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_dao/ssm_project_dao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_project_domain/ssm_project_domain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_domain/ssm_project_domain.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_project_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_project_service/ssm_project_service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_service/ssm_project_service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_project_utils/ssm_project_utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_utils/ssm_project_utils.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_project_web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_project_web/ssm_project_web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_web/ssm_project_web.iml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -23,10 +52,14 @@
     </option>
   </component>
   <component name="ProjectId" id="1UepmD2TPvm7I7AxpKPNEeFDca3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
@@ -53,11 +86,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575727071371</updated>
-      <workItem from="1575727074405" duration="534000" />
+      <workItem from="1575727074405" duration="1735000" />
+      <workItem from="1575784389494" duration="1214000" />
+      <workItem from="1575898617127" duration="3990000" />
     </task>
+    <task id="LOCAL-00001" summary="readme update">
+      <created>1575728087259</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575728087259</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="readme update" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme update" />
   </component>
 </project>
