@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e53eb657-29ff-46ac-9a1d-8ebd434f8404" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ssm_project_dao/src/main/java/cn/figo/dao/IOrdersDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_project_domain/src/main/java/cn/figo/domain/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_project_domain/src/main/java/cn/figo/domain/Orders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_project_domain/src/main/java/cn/figo/domain/Traveller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/IOrdersService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_project_web/src/main/java/cn/figo/controller/OrdersController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages/orders-list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages/orders-page-list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_project_dao/src/main/java/cn/figo/dao/IProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_dao/src/main/java/cn/figo/dao/IProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/IOrdersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/IOrdersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_project_web/src/main/java/cn/figo/controller/OrdersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_web/src/main/java/cn/figo/controller/OrdersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_project_web/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_web/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages/main.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +49,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -210,7 +208,7 @@
       <workItem from="1575784389494" duration="1214000" />
       <workItem from="1575898617127" duration="4278000" />
       <workItem from="1575978942839" duration="9107000" />
-      <workItem from="1576067354762" duration="5691000" />
+      <workItem from="1576067354762" duration="6853000" />
     </task>
     <task id="LOCAL-00001" summary="readme update">
       <created>1575728087259</created>
@@ -261,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576076668720</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ssm项目 订单页及功能">
+      <created>1576078079364</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1576078079364</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,12 +286,14 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="readme update" />
     <MESSAGE value="ssm 项目初始化" />
     <MESSAGE value="ssm项目 初步启动" />
     <MESSAGE value="ssm项目 product-list" />
     <MESSAGE value="ssm项目 main页面" />
     <MESSAGE value="ssm项目 产品新增" />
-    <option name="LAST_COMMIT_MESSAGE" value="ssm项目 产品新增" />
+    <MESSAGE value="ssm项目 订单页及功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="ssm项目 订单页及功能" />
   </component>
 </project>

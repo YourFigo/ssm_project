@@ -21,6 +21,7 @@
 
 
     <context:property-placeholder location="classpath:db.properties"/>
+
     <!-- 配置连接池 -->
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
         <property name="driverClass" value="${jdbc.driver}" />
@@ -28,9 +29,10 @@
         <property name="user" value="${jdbc.username}" />
         <property name="password" value="${jdbc.password}" />
     </bean>
+
     <!-- 把交给IOC管理 SqlSessionFactory -->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
-        <property name="dataSource" ref="dataSource" />
+        <property name="dataSource" ref="dataSource"/>
         <!-- 传入PageHelper的插件 -->
         <property name="plugins">
             <array>
@@ -38,7 +40,7 @@
                 <bean class="com.github.pagehelper.PageInterceptor">
                     <property name="properties">
                         <props>
-                            <prop key="helperDialect">mysql</prop>
+                            <prop key="helperDialect">oracle</prop>
                             <prop key="reasonable">true</prop>
                         </props>
                     </property>
