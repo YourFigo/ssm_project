@@ -29,4 +29,11 @@ public class ProductController {
         mv.setViewName("product-list");
         return mv;
     }
+
+    //产品添加,保存后跳转到findAll再做一次查询
+    @RequestMapping("/save.do")
+    public String save(Product product) throws Exception {
+        productService.save(product);
+        return "redirect:findAll.do";
+    }
 }
