@@ -18,6 +18,10 @@ public interface IProductDao {
     @Select("select * from product")
     public List<Product> findAll() throws Exception;
 
+    //根据id查询产品
+    @Select("select * from product where id=#{id}")
+    public Product findById(String id) throws Exception;
+
     // 新增产品
     @Insert("insert into " +
             "product(productNum,productName,cityName,departureTime,productPrice,productDesc,productStatus) " +

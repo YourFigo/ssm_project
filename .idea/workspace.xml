@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e53eb657-29ff-46ac-9a1d-8ebd434f8404" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ssm_project_web/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages/product-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_dao/src/main/java/cn/figo/dao/IOrdersDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_domain/src/main/java/cn/figo/domain/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_domain/src/main/java/cn/figo/domain/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_domain/src/main/java/cn/figo/domain/Traveller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/IOrdersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_web/src/main/java/cn/figo/controller/OrdersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages/orders-list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ssm_project_dao/src/main/java/cn/figo/dao/IProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_dao/src/main/java/cn/figo/dao/IProductDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_project_domain/src/main/java/cn/figo/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_domain/src/main/java/cn/figo/domain/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/IProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/IProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_project_web/src/main/java/cn/figo/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_web/src/main/java/cn/figo/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages/product-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages/product-list.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -54,7 +55,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ssm_project_web/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -63,8 +64,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\1_Code\java\ssm_project\ssm_project_web\src\main\resources" />
       <recent name="D:\1_Code\java\ssm_project\ssm_project_web\src\main\webapp\pages" />
+      <recent name="D:\1_Code\java\ssm_project\ssm_project_web\src\main\resources" />
       <recent name="D:\1_Code\java\ssm_project\ssm_project_web\src\main\webapp\img" />
       <recent name="D:\1_Code\java\ssm_project\ssm_project_web\src\main\webapp" />
     </key>
@@ -209,7 +210,7 @@
       <workItem from="1575784389494" duration="1214000" />
       <workItem from="1575898617127" duration="4278000" />
       <workItem from="1575978942839" duration="9107000" />
-      <workItem from="1576067354762" duration="4239000" />
+      <workItem from="1576067354762" duration="5691000" />
     </task>
     <task id="LOCAL-00001" summary="readme update">
       <created>1575728087259</created>
@@ -253,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576075057448</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ssm项目 产品新增">
+      <created>1576076668720</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1576076668720</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,6 +286,7 @@
     <MESSAGE value="ssm项目 初步启动" />
     <MESSAGE value="ssm项目 product-list" />
     <MESSAGE value="ssm项目 main页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="ssm项目 main页面" />
+    <MESSAGE value="ssm项目 产品新增" />
+    <option name="LAST_COMMIT_MESSAGE" value="ssm项目 产品新增" />
   </component>
 </project>
