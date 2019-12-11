@@ -26,7 +26,7 @@ public class ProductController {
         ModelAndView mv = new ModelAndView();
         List<Product> ps = productService.findAll();
         mv.addObject("productList", ps);
-        mv.setViewName("product-list1");
+        mv.setViewName("product-list");
         return mv;
     }
 }
