@@ -4,6 +4,7 @@ import cn.figo.domain.Member;
 import cn.figo.domain.Orders;
 import cn.figo.domain.Product;
 import org.apache.ibatis.annotations.*;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
@@ -11,6 +12,7 @@ import java.util.List;
  * @Author Figo
  * @Date 2019/12/11 23:18
  */
+@Repository
 public interface IOrdersDao {
 
     /**
@@ -48,9 +50,9 @@ public interface IOrdersDao {
             @Result(property = "peopleCount", column = "peopleCount"),
             @Result(property = "payType", column = "payType"),
             @Result(property = "orderDesc", column = "orderDesc"),
-            @Result(property = "product", column = "productId", javaType = Product.class, one = @One(select = "com.figo.dao.IProductDao.findById")),
-            @Result(property = "member", column = "memberId", javaType = Member.class, one = @One(select = "com.figo.dao.IMemberDao.findById")),
-            @Result(property = "travellers", column = "id", javaType = java.util.List.class, many = @Many(select = "com.figo.dao.ITravellerDao.findByOrdersId"))
+            @Result(property = "product", column = "productId", javaType = Product.class, one = @One(select = "cn.figo.dao.IProductDao.findById")),
+            @Result(property = "member", column = "memberId", javaType = Member.class, one = @One(select = "cn.figo.dao.IMemberDao.findById")),
+            @Result(property = "travellers", column = "id", javaType = java.util.List.class, many = @Many(select = "cn.figo.dao.ITravellerDao.findByOrdersId"))
     })
     public Orders findById(String ordersId) throws Exception;
 }
