@@ -25,20 +25,6 @@ public class Orders {
     private String payTypeStr;
     private String orderDesc;
 
-    public String getOrderStatusStr() {
-        //订单状态(0 未支付 1 已支付)
-        if(orderStatus==0){
-            orderStatusStr="未支付";
-        }else if(orderStatus==1){
-            orderStatusStr="已支付";
-        }
-        return orderStatusStr;
-    }
-
-    public void setOrderStatusStr(String orderStatusStr) {
-        this.orderStatusStr = orderStatusStr;
-    }
-
     public String getId() {
         return id;
     }
@@ -80,6 +66,20 @@ public class Orders {
 
     public void setOrderStatus(int orderStatus) {
         this.orderStatus = orderStatus;
+    }
+
+    public String getOrderStatusStr() {
+        //订单状态(0 未支付 1 已支付)
+        if(orderStatus==0){
+            orderStatusStr="未支付";
+        }else if(orderStatus==1){
+            orderStatusStr="已支付";
+        }
+        return orderStatusStr;
+    }
+
+    public void setOrderStatusStr(String orderStatusStr) {
+        this.orderStatusStr = orderStatusStr;
     }
 
     public int getPeopleCount() {
