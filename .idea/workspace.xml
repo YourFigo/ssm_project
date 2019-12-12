@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e53eb657-29ff-46ac-9a1d-8ebd434f8404" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ssm_project_dao/src/main/java/cn/figo/dao/IMemberDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_project_dao/src/main/java/cn/figo/dao/ITravellerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages/orders-show.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_dao/src/main/java/cn/figo/dao/IRoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_dao/src/main/java/cn/figo/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_domain/src/main/java/cn/figo/domain/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_domain/src/main/java/cn/figo/domain/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_domain/src/main/java/cn/figo/domain/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_web/src/main/java/cn/figo/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages/user-list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_project_dao/src/main/java/cn/figo/dao/IOrdersDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_dao/src/main/java/cn/figo/dao/IOrdersDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_project_domain/src/main/java/cn/figo/domain/Traveller.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_domain/src/main/java/cn/figo/domain/Traveller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/IOrdersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/IOrdersService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_project_web/src/main/java/cn/figo/controller/OrdersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_web/src/main/java/cn/figo/controller/OrdersController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -211,7 +212,7 @@
       <workItem from="1575898617127" duration="4278000" />
       <workItem from="1575978942839" duration="9107000" />
       <workItem from="1576067354762" duration="7341000" />
-      <workItem from="1576152796488" duration="8031000" />
+      <workItem from="1576152796488" duration="10106000" />
     </task>
     <task id="LOCAL-00001" summary="readme update">
       <created>1575728087259</created>
@@ -297,7 +298,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576161794439</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="ssm项目 查看订单详情">
+      <created>1576164142454</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1576164142454</updated>
+    </task>
+    <task id="LOCAL-00014" summary="ssm项目 用户相关sql">
+      <created>1576164613126</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1576164613126</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,6 +344,8 @@
     <MESSAGE value="ssm项目 所有sql" />
     <MESSAGE value="ssm项目 订单表查询所有未分页" />
     <MESSAGE value="ssm项目 分页订单表查询所有" />
-    <option name="LAST_COMMIT_MESSAGE" value="ssm项目 分页订单表查询所有" />
+    <MESSAGE value="ssm项目 查看订单详情" />
+    <MESSAGE value="ssm项目 用户相关sql" />
+    <option name="LAST_COMMIT_MESSAGE" value="ssm项目 用户相关sql" />
   </component>
 </project>
