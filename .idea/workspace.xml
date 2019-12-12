@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e53eb657-29ff-46ac-9a1d-8ebd434f8404" name="Default Changelist" comment="ssm项目 所有sql">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="e53eb657-29ff-46ac-9a1d-8ebd434f8404" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_project_domain/src/main/java/cn/figo/domain/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_domain/src/main/java/cn/figo/domain/Orders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_project_dao/src/main/java/cn/figo/dao/IOrdersDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_dao/src/main/java/cn/figo/dao/IOrdersDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ssm_project_web/src/main/java/cn/figo/controller/OrdersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_web/src/main/java/cn/figo/controller/OrdersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_project_web/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_web/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages/orders-page-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages/orders-page-list.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -206,7 +207,7 @@
       <workItem from="1575898617127" duration="4278000" />
       <workItem from="1575978942839" duration="9107000" />
       <workItem from="1576067354762" duration="7341000" />
-      <workItem from="1576152796488" duration="783000" />
+      <workItem from="1576152796488" duration="5671000" />
     </task>
     <task id="LOCAL-00001" summary="readme update">
       <created>1575728087259</created>
@@ -278,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576079585190</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ssm项目 订单表查询所有未分页">
+      <created>1576153660135</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1576153660135</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,6 +316,7 @@
     <MESSAGE value="ssm项目 订单页及功能" />
     <MESSAGE value="ssm项目 订单页分页查询" />
     <MESSAGE value="ssm项目 所有sql" />
-    <option name="LAST_COMMIT_MESSAGE" value="ssm项目 所有sql" />
+    <MESSAGE value="ssm项目 订单表查询所有未分页" />
+    <option name="LAST_COMMIT_MESSAGE" value="ssm项目 订单表查询所有未分页" />
   </component>
 </project>
