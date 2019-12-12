@@ -106,6 +106,47 @@ values ('CA005CF1BE3C4EF68F88ABC7DF30E976', '44444', to_timestamp('02-03-2018 12
 insert into ORDERS (id, ordernum, ordertime, peoplecount, orderdesc, paytype, orderstatus, productid, memberid)
 values ('3081770BC3984EF092D9E99760FDABDE', '55555', to_timestamp('02-03-2018 12:00:00.000000', 'dd-mm-yyyy hh24:mi:ss.ff'), 2, '没什么', 0, 1, '9F71F01CB448476DAFB309AA6DF9497F', 'E61D65F673D54F68B0861025C69773DB');
 
+-- 用户表
+CREATE TABLE users(
+id varchar2(32) default SYS_GUID() PRIMARY KEY,
+email VARCHAR2(50) UNIQUE NOT NULL,
+username VARCHAR2(50),
+PASSWORD VARCHAR2(50),
+phoneNum VARCHAR2(20),
+STATUS INT
+);
 
+-- 角色表
+CREATE TABLE role(
+id varchar2(32) default SYS_GUID() PRIMARY KEY,
+roleName VARCHAR2(50) ,
+roleDesc VARCHAR2(50)
+);
+
+
+-- 用户角色关联表
+CREATE TABLE users_role(
+userId varchar2(32),
+roleId varchar2(32),
+PRIMARY KEY(userId,roleId),
+FOREIGN KEY (userId) REFERENCES users(id),
+FOREIGN KEY (roleId) REFERENCES role(id)
+);
+
+-- 资源权限表
+CREATE TABLE permission(
+id varchar2(32) default SYS_GUID() PRIMARY KEY,
+permissionName VARCHAR2(50) ,
+url VARCHAR2(50)
+);
+
+-- 角色权限关联表
+CREATE TABLE role_permission(
+permissionId varchar2(32),
+roleId varchar2(32),
+PRIMARY KEY(permissionId,roleId),
+FOREIGN KEY (permissionId) REFERENCES permission(id),
+FOREIGN KEY (roleId) REFERENCES role(id)
+);
 
 
