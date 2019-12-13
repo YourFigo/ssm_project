@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e53eb657-29ff-46ac-9a1d-8ebd434f8404" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ssm_project_dao/src/main/java/cn/figo/dao/IRoleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_project_dao/src/main/java/cn/figo/dao/IUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_project_domain/src/main/java/cn/figo/domain/Permission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_project_domain/src/main/java/cn/figo/domain/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_project_domain/src/main/java/cn/figo/domain/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/IUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_project_web/src/main/java/cn/figo/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages/user-list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages/user-add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_project_dao/src/main/java/cn/figo/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_dao/src/main/java/cn/figo/dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_project_web/src/main/java/cn/figo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_web/src/main/java/cn/figo/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_project_web/src/main/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_web/src/main/resources/spring-mvc.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -212,7 +210,8 @@
       <workItem from="1575898617127" duration="4278000" />
       <workItem from="1575978942839" duration="9107000" />
       <workItem from="1576067354762" duration="7341000" />
-      <workItem from="1576152796488" duration="10106000" />
+      <workItem from="1576152796488" duration="10163000" />
+      <workItem from="1576235038622" duration="1057000" />
     </task>
     <task id="LOCAL-00001" summary="readme update">
       <created>1575728087259</created>
@@ -312,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576164613126</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="ssm项目 查询所有用户">
+      <created>1576166122834</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1576166122834</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,6 +352,7 @@
     <MESSAGE value="ssm项目 分页订单表查询所有" />
     <MESSAGE value="ssm项目 查看订单详情" />
     <MESSAGE value="ssm项目 用户相关sql" />
-    <option name="LAST_COMMIT_MESSAGE" value="ssm项目 用户相关sql" />
+    <MESSAGE value="ssm项目 查询所有用户" />
+    <option name="LAST_COMMIT_MESSAGE" value="ssm项目 查询所有用户" />
   </component>
 </project>

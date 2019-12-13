@@ -11,4 +11,6 @@ import java.util.List;
 public interface IUserService {
 
     List<UserInfo> findAll() throws Exception;
+
+    public void save(UserInfo userInfo) throws Exception;
 }

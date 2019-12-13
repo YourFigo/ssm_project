@@ -24,4 +24,11 @@ public class UserServiceImpl implements IUserService {
     public List<UserInfo> findAll() throws Exception {
         return userDao.findAll();
     }
+
+    @Override
+    public void save(UserInfo userInfo) throws Exception {
+        //对密码进行加密处理
+        userInfo.setPassword(bCryptPasswordEncoder.encode(userInfo.getPassword()));
+        userDao.save(userInfo);
+    }
 }
