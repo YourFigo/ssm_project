@@ -28,7 +28,7 @@ public class UserServiceImpl implements IUserService {
     @Override
     public void save(UserInfo userInfo) throws Exception {
         //对密码进行加密处理
-        userInfo.setPassword(bCryptPasswordEncoder.encode(userInfo.getPassword()));
+//        userInfo.setPassword(bCryptPasswordEncoder.encode(userInfo.getPassword()));
         userDao.save(userInfo);
     }
 }

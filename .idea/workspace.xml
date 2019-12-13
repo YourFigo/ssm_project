@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e53eb657-29ff-46ac-9a1d-8ebd434f8404" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages/user-add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_web/src/main/resources/spring-security.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/failer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_project_dao/src/main/java/cn/figo/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_dao/src/main/java/cn/figo/dao/IUserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/IUserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_project_web/src/main/java/cn/figo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_web/src/main/java/cn/figo/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_project_web/src/main/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_web/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +52,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ssm_project_web/src/main/webapp" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -63,10 +61,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\1_Code\java\ssm_project\ssm_project_web\src\main\webapp" />
       <recent name="D:\1_Code\java\ssm_project\ssm_project_web\src\main\webapp\pages" />
       <recent name="D:\1_Code\java\ssm_project\ssm_project_web\src\main\resources" />
       <recent name="D:\1_Code\java\ssm_project\ssm_project_web\src\main\webapp\img" />
-      <recent name="D:\1_Code\java\ssm_project\ssm_project_web\src\main\webapp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -211,7 +209,7 @@
       <workItem from="1575978942839" duration="9107000" />
       <workItem from="1576067354762" duration="7341000" />
       <workItem from="1576152796488" duration="10163000" />
-      <workItem from="1576235038622" duration="1057000" />
+      <workItem from="1576235038622" duration="1832000" />
     </task>
     <task id="LOCAL-00001" summary="readme update">
       <created>1575728087259</created>
@@ -318,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576166122834</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="ssm项目 新增用户">
+      <created>1576236212561</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1576236212561</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,6 +358,7 @@
     <MESSAGE value="ssm项目 查看订单详情" />
     <MESSAGE value="ssm项目 用户相关sql" />
     <MESSAGE value="ssm项目 查询所有用户" />
-    <option name="LAST_COMMIT_MESSAGE" value="ssm项目 查询所有用户" />
+    <MESSAGE value="ssm项目 新增用户" />
+    <option name="LAST_COMMIT_MESSAGE" value="ssm项目 新增用户" />
   </component>
 </project>
