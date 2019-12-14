@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e53eb657-29ff-46ac-9a1d-8ebd434f8404" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springSecurityTest/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springSecurityTest/src/main/resources/spring-security.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springSecurityTest/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springSecurityTest/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springSecurityTest/src/main/webapp/failer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springSecurityTest/src/main/webapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springSecurityTest/src/main/webapp/success.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springSecurityTest/src/main/resources/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springSecurityTest/src/main/resources/spring-security.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +52,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springSecurityTest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springSecurityTest/src/main/webapp" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -64,6 +61,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\1_Code\java\ssm_project\springSecurityTest\src\main\webapp" />
       <recent name="D:\1_Code\java\ssm_project\ssm_project_web\src\main\webapp" />
       <recent name="D:\1_Code\java\ssm_project\ssm_project_web\src\main\webapp\pages" />
       <recent name="D:\1_Code\java\ssm_project\ssm_project_web\src\main\resources" />
@@ -242,7 +240,7 @@
       <workItem from="1576067354762" duration="7341000" />
       <workItem from="1576152796488" duration="10163000" />
       <workItem from="1576235038622" duration="1978000" />
-      <workItem from="1576289565346" duration="4645000" />
+      <workItem from="1576289565346" duration="5270000" />
     </task>
     <task id="LOCAL-00001" summary="readme update">
       <created>1575728087259</created>
@@ -363,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576236964320</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="spring-security 测试">
+      <created>1576306163446</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1576306163446</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,6 +405,7 @@
     <MESSAGE value="ssm项目 查询所有用户" />
     <MESSAGE value="ssm项目 新增用户" />
     <MESSAGE value="ssm项目 spring-security" />
-    <option name="LAST_COMMIT_MESSAGE" value="ssm项目 spring-security" />
+    <MESSAGE value="spring-security 测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring-security 测试" />
   </component>
 </project>
