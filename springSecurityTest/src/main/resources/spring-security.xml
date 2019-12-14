@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:security="http://www.springframework.org/schema/security"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/security
+http://www.springframework.org/schema/security/spring-security.xsd">
+
+    <!--使用springSecurity默认的登录页面-->
+    <security:http auto-config="true" use-expressions="false" >
+        <!-- 配置资料连接，表示任意路径都需要ROLE_USER权限 -->
+        <security:intercept-url pattern="/**" access="ROLE_USER" />
+    </security:http>
+
+    <security:authentication-manager>
+        <security:authentication-provider>
+            <!--配置了两个用户名和密码可以登录-->
+            <security:user-service>
+                <security:user name="user" password="{noop}user"
+                               authorities="ROLE_USER" />
+                <security:user name="admin" password="{noop}admin"
+                               authorities="ROLE_ADMIN" />
+            </security:user-service>
+        </security:authentication-provider>
+    </security:authentication-manager>
+</beans>

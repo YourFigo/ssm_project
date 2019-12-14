@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e53eb657-29ff-46ac-9a1d-8ebd434f8404" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ssm_project_web/src/main/resources/spring-security.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/failer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springSecurityTest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springSecurityTest/src/main/resources/spring-security.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springSecurityTest/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springSecurityTest/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +38,7 @@
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
@@ -52,7 +55,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ssm_project_web/src/main/webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springSecurityTest" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -79,7 +82,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Maven.springSecurityTest [tomcat7:run]">
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -100,6 +103,31 @@
             </option>
             <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$/ssm_project_web" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="springSecurityTest [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/springSecurityTest" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
@@ -192,6 +220,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Maven.ssm_project_web" />
+      <item itemvalue="Maven.springSecurityTest [tomcat7:run]" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -209,7 +241,8 @@
       <workItem from="1575978942839" duration="9107000" />
       <workItem from="1576067354762" duration="7341000" />
       <workItem from="1576152796488" duration="10163000" />
-      <workItem from="1576235038622" duration="1832000" />
+      <workItem from="1576235038622" duration="1978000" />
+      <workItem from="1576289565346" duration="4645000" />
     </task>
     <task id="LOCAL-00001" summary="readme update">
       <created>1575728087259</created>
@@ -323,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576236212561</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="ssm项目 spring-security">
+      <created>1576236964320</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1576236964320</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,6 +399,7 @@
     <MESSAGE value="ssm项目 用户相关sql" />
     <MESSAGE value="ssm项目 查询所有用户" />
     <MESSAGE value="ssm项目 新增用户" />
-    <option name="LAST_COMMIT_MESSAGE" value="ssm项目 新增用户" />
+    <MESSAGE value="ssm项目 spring-security" />
+    <option name="LAST_COMMIT_MESSAGE" value="ssm项目 spring-security" />
   </component>
 </project>
