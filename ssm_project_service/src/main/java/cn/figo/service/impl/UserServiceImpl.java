@@ -51,10 +51,10 @@ public class UserServiceImpl implements IUserService{
             e.printStackTrace();
         }
         // 处理自己的用户对象封装成UserDetails
-         User user=new User(userInfo.getUsername(),"{noop}"+userInfo.getPassword(),getAuthority(userInfo.getRoles()));
+//         User user=new User(userInfo.getUsername(),"{noop}"+userInfo.getPassword(),getAuthority(userInfo.getRoles()));
         // 通过用户状态、角色信息控制用户是否可成功登录
-//        User user = new User(userInfo.getUsername(), "{noop}"+userInfo.getPassword(),userInfo.getStatus() == 0 ? false : true,
-//                true, true, true, getAuthority(userInfo.getRoles()));
+        User user = new User(userInfo.getUsername(), "{noop}"+userInfo.getPassword(),userInfo.getStatus() == 0 ? false : true,
+                true, true, true, getAuthority(userInfo.getRoles()));
         return user;
     }
 
