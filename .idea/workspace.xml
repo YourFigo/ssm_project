@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e53eb657-29ff-46ac-9a1d-8ebd434f8404" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ssm_project_utils/src/main/java/cn/figo/utils/BCryptPasswordEncoderUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_dao/src/main/java/cn/figo/dao/IPermissionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages/user-show.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/all.sql" beforeDir="false" afterPath="$PROJECT_DIR$/all.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_project_dao/src/main/java/cn/figo/dao/IRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_dao/src/main/java/cn/figo/dao/IRoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_project_dao/src/main/java/cn/figo/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_dao/src/main/java/cn/figo/dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/IUserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_project_web/src/main/resources/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_web/src/main/resources/spring-security.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_project_web/src/main/java/cn/figo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_web/src/main/java/cn/figo/controller/UserController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -52,7 +56,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springSecurityTest/src/main/webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -61,9 +65,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\1_Code\java\ssm_project\ssm_project_web\src\main\webapp\pages" />
       <recent name="D:\1_Code\java\ssm_project\springSecurityTest\src\main\webapp" />
       <recent name="D:\1_Code\java\ssm_project\ssm_project_web\src\main\webapp" />
-      <recent name="D:\1_Code\java\ssm_project\ssm_project_web\src\main\webapp\pages" />
       <recent name="D:\1_Code\java\ssm_project\ssm_project_web\src\main\resources" />
       <recent name="D:\1_Code\java\ssm_project\ssm_project_web\src\main\webapp\img" />
     </key>
@@ -259,7 +263,7 @@
       <workItem from="1576067354762" duration="7341000" />
       <workItem from="1576152796488" duration="10163000" />
       <workItem from="1576235038622" duration="1978000" />
-      <workItem from="1576289565346" duration="19818000" />
+      <workItem from="1576289565346" duration="23297000" />
     </task>
     <task id="LOCAL-00001" summary="readme update">
       <created>1575728087259</created>
@@ -408,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576317798904</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="ssm项目 用户的新增和密码的加密处理">
+      <created>1576323047582</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1576323047582</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,6 +459,7 @@
     <MESSAGE value="spring-security 测试" />
     <MESSAGE value="spring-security 测试 本地登录页" />
     <MESSAGE value="spring-security 用户的登录和注销" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring-security 用户的登录和注销" />
+    <MESSAGE value="ssm项目 用户的新增和密码的加密处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="ssm项目 用户的新增和密码的加密处理" />
   </component>
 </project>

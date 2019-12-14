@@ -39,6 +39,11 @@ public class UserServiceImpl implements IUserService{
         return userDao.findAll();
     }
 
+    @Override
+    public UserInfo findById(String id) throws Exception{
+        return  userDao.findById(id);
+    }
+
     /**
      * 登录时，根据用户名查询用户及其角色信息
      * @param username

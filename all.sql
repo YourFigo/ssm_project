@@ -150,3 +150,29 @@ FOREIGN KEY (roleId) REFERENCES role(id)
 );
 
 
+select * from USERS t;
+insert into users values ('111-222','tom@figo.cn','tom','123','15999999999',1);
+update users set password='$2a$10$tJHudmJh6MRPdiL7mv0yfe0nZJbDHuhl7sSTnqNC4DauMik9ppi4K' where id = '111-222';
+
+select * from role;
+insert into role values ('1111','ADMIN','admin');
+insert into role values ('2222','USER','user');
+
+select * from users_role;
+insert into users_role values ('111-222','1111');
+insert into users_role values ('111-222','2222');
+
+select * from role where id in (select roleid from users_role where userid = '111-222')
+
+select * from permission;
+-- 2151151E13D045F9BFC4F004026A1197
+-- 2D797608E2AB46C6B28C275A1A05C36A
+insert into permission (permissionname,url) values ('user findAll','/user/findAll.do');
+insert into permission (permissionname,url) values ('user findById','/user/findById.do');
+
+select * from role_permission;
+insert into role_permission values ('2151151E13D045F9BFC4F004026A1197','1111');
+insert into role_permission values ('2D797608E2AB46C6B28C275A1A05C36A','1111');
+insert into role_permission values ('2151151E13D045F9BFC4F004026A1197','2222');
+
+select * from permission where id in (select permissionId from role_permission where roleid = '1111');
