@@ -12,6 +12,13 @@ import java.util.List;
  */
 @Repository
 public interface IUserDao {
+
+    /**
+     * 根据用户名查询用户信息
+     * @param username
+     * @return
+     * @throws Exception
+     */
     @Select("select * from users where username=#{username}")
     @Results({
             @Result(id = true, property = "id", column = "id"),
@@ -24,8 +31,14 @@ public interface IUserDao {
     })
     public UserInfo findByUsername(String username) throws Exception;
 
+    /**
+     * 查询所有用户
+     * @return
+     * @throws Exception
+     */
     @Select("select * from users")
     List<UserInfo> findAll() throws Exception;
+
 
     @Insert("insert into users(email,username,password,phoneNum,status) values(#{email},#{username},#{password},#{phoneNum},#{status})")
     void save(UserInfo userInfo) throws Exception;

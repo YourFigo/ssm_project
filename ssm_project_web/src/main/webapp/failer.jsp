@@ -17,50 +17,6 @@
 	content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
 	name="viewport">
 
-
-
-
-
-
-
-
-<!-- jQuery 2.2.3 -->
-<!-- jQuery UI 1.11.4 -->
-<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
-<!-- Bootstrap 3.3.6 -->
-<!-- Morris.js charts -->
-<!-- Sparkline -->
-<!-- jvectormap -->
-<!-- jQuery Knob Chart -->
-<!-- daterangepicker -->
-<!-- datepicker -->
-<!-- Bootstrap WYSIHTML5 -->
-<!-- Slimscroll -->
-<!-- FastClick -->
-<!-- iCheck -->
-<!-- AdminLTE App -->
-<!-- 表格树 -->
-<!-- select2 -->
-<!-- bootstrap color picker -->
-<!-- bootstrap time picker -->
-<!--<script src="${pageContext.request.contextPath}/${pageContext.request.contextPath}/${pageContext.request.contextPath}/plugins/timepicker/bootstrap-timepicker.min.js"></script>-->
-<!-- Bootstrap WYSIHTML5 -->
-<!--bootstrap-markdown-->
-<!-- CK Editor -->
-<!-- InputMask -->
-<!-- DataTables -->
-<!-- ChartJS 1.0.1 -->
-<!-- FLOT CHARTS -->
-<!-- FLOT RESIZE PLUGIN - allows the chart to redraw when the window is resized -->
-<!-- FLOT PIE PLUGIN - also used to draw donut charts -->
-<!-- FLOT CATEGORIES PLUGIN - Used to draw bar charts -->
-<!-- jQuery Knob -->
-<!-- Sparkline -->
-<!-- Morris.js charts -->
-<!-- Ion Slider -->
-<!-- Bootstrap slider -->
-<!-- 页面meta /-->
-
 <link rel="stylesheet"
 	href="${pageContext.request.contextPath}/plugins/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet"

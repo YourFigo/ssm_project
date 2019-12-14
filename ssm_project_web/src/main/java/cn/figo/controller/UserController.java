@@ -20,6 +20,11 @@ public class UserController {
     @Autowired
     private IUserService userService;
 
+    /**
+     * 展示所有用户信息
+     * @return
+     * @throws Exception
+     */
     @RequestMapping("/findAll.do")
     public ModelAndView findAll() throws Exception {
         ModelAndView mv = new ModelAndView();
@@ -29,7 +34,12 @@ public class UserController {
         return mv;
     }
 
-    //用户添加
+    /**
+     * 用户添加
+     * @param userInfo
+     * @return
+     * @throws Exception
+     */
     @RequestMapping("/save.do")
     public String save(UserInfo userInfo) throws Exception {
         userService.save(userInfo);
