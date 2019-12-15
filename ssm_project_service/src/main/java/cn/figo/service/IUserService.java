@@ -23,4 +23,6 @@ public interface IUserService extends UserDetailsService {
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException;
 
     List<Role> findOtherRoles(String userId) throws Exception;
+
+    void addRoleToUser(String userId, String[] roleIds);
 }

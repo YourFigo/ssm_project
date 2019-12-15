@@ -96,4 +96,17 @@ public class UserServiceImpl implements IUserService{
     public List<Role> findOtherRoles(String userId) {
         return userDao.findOtherRoles(userId);
     }
+
+    /**
+     * 根据用户id给单个用户添加角色
+     * @param userId
+     * @param roleIds
+     */
+    @Override
+    public void addRoleToUser(String userId, String[] roleIds) {
+
+        for(String roleId:roleIds){
+            userDao.addRoleToUser(userId,roleId);
+        }
+    }
 }
