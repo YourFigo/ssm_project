@@ -1,10 +1,7 @@
 package cn.figo.dao;
 
 import cn.figo.domain.Role;
-import org.apache.ibatis.annotations.Many;
-import org.apache.ibatis.annotations.Result;
-import org.apache.ibatis.annotations.Results;
-import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -30,4 +27,10 @@ public interface IRoleDao {
             @Result(property = "permissions",column = "id",javaType = java.util.List.class,many = @Many(select = "cn.figo.dao.IPermissionDao.findPermissionByRoleId"))
     })
     public List<Role> findRoleByUserId(String userId) throws Exception;
+
+    @Select("select * from role")
+    List<Role> findAll() throws Exception;
+
+    @Insert("insert into role(roleName,roleDesc) values(#{roleName},#{roleDesc})")
+    void save(Role role);
 }
