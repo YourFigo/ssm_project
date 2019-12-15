@@ -86,4 +86,14 @@ public class UserServiceImpl implements IUserService{
         userInfo.setPassword(bCryptPasswordEncoder.encode(userInfo.getPassword()));
         userDao.save(userInfo);
     }
+
+    /**
+     * 根据用户id查询可以添加的角色
+     * @param userId
+     * @return
+     */
+    @Override
+    public List<Role> findOtherRoles(String userId) {
+        return userDao.findOtherRoles(userId);
+    }
 }

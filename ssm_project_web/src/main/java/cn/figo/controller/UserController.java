@@ -1,10 +1,12 @@
 package cn.figo.controller;
 
+import cn.figo.domain.Role;
 import cn.figo.domain.UserInfo;
 import cn.figo.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
@@ -59,6 +61,25 @@ public class UserController {
     public String save(UserInfo userInfo) throws Exception {
         userService.save(userInfo);
         return "redirect:findAll.do";
+    }
+
+    /**
+     * 查询用户以及用户可以添加的角色
+     * @param userid
+     * @return
+     * @throws Exception
+     */
+    @RequestMapping("/findUserByIdAndAllRole.do")
+    public ModelAndView findUserByIdAndAllRole(@RequestParam(name = "id", required = true) String userid) throws Exception {
+        ModelAndView mv = new ModelAndView();
+        //1.根据用户id查询用户
+        UserInfo userInfo = userService.findById(userid);
+        //2.根据用户id查询可以添加的角色
+        List<Role> otherRoles = userService.findOtherRoles(userid);
+        mv.addObject("user", userInfo);
+        mv.addObject("roleList", otherRoles);
+        mv.setViewName("user-role-add");
+        return mv;
     }
 
 }

@@ -1,5 +1,6 @@
 package cn.figo.service;
 
+import cn.figo.domain.Role;
 import cn.figo.domain.UserInfo;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -20,4 +21,6 @@ public interface IUserService extends UserDetailsService {
     public void save(UserInfo userInfo) throws Exception;
 
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException;
+
+    List<Role> findOtherRoles(String userId) throws Exception;
 }

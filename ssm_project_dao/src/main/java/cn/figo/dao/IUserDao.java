@@ -1,5 +1,6 @@
 package cn.figo.dao;
 
+import cn.figo.domain.Role;
 import cn.figo.domain.UserInfo;
 import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Repository;
@@ -54,4 +55,7 @@ public interface IUserDao {
 
     @Insert("insert into users(email,username,password,phoneNum,status) values(#{email},#{username},#{password},#{phoneNum},#{status})")
     void save(UserInfo userInfo) throws Exception;
+
+    @Select("select * from role where id not in (select roleId from users_role where userId=#{userId})")
+    List<Role> findOtherRoles(String userId);
 }
