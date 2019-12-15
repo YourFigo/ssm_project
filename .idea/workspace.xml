@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e53eb657-29ff-46ac-9a1d-8ebd434f8404" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/IRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_project_web/src/main/java/cn/figo/controller/RoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages/role-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/IPermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/impl/PermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_web/src/main/java/cn/figo/controller/PermissionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages/permission-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages/permission-list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_project_dao/src/main/java/cn/figo/dao/IRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_dao/src/main/java/cn/figo/dao/IRoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_project_dao/src/main/java/cn/figo/dao/IPermissionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_dao/src/main/java/cn/figo/dao/IPermissionDao.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -264,7 +264,7 @@
       <workItem from="1576289565346" duration="23575000" />
       <workItem from="1576327721631" duration="114000" />
       <workItem from="1576335131859" duration="235000" />
-      <workItem from="1576407535165" duration="2260000" />
+      <workItem from="1576407535165" duration="3072000" />
     </task>
     <task id="LOCAL-00001" summary="readme update">
       <created>1575728087259</created>
@@ -427,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576327381227</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="ssm项目 角色的查询和添加">
+      <created>1576420982215</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1576420982216</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,6 +476,7 @@
     <MESSAGE value="spring-security 用户的登录和注销" />
     <MESSAGE value="ssm项目 用户的新增和密码的加密处理" />
     <MESSAGE value="ssm项目 用户角色和权限关联查询" />
-    <option name="LAST_COMMIT_MESSAGE" value="ssm项目 用户角色和权限关联查询" />
+    <MESSAGE value="ssm项目 角色的查询和添加" />
+    <option name="LAST_COMMIT_MESSAGE" value="ssm项目 角色的查询和添加" />
   </component>
 </project>
