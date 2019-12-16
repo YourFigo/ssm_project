@@ -8,7 +8,9 @@
     http://www.springframework.org/schema/security/spring-security.xsd">
 
     <!--开启方法级别的权限控制（使用 jsr250）-->
-    <security:global-method-security jsr250-annotations="enabled"></security:global-method-security>
+    <!--开启 secured 注解-->
+    <!--开启 PreAuthorize 注解 ,在方法调用之前,基于表达式的计算结果来限制对方法的访问-->
+    <security:global-method-security jsr250-annotations="enabled" secured-annotations="enabled" pre-post-annotations="enabled"></security:global-method-security>
 
     <!-- 配置不拦截的资源 -->
     <security:http pattern="/login.jsp" security="none"/>

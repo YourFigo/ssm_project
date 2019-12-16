@@ -4,6 +4,7 @@ import cn.figo.domain.Role;
 import cn.figo.domain.UserInfo;
 import cn.figo.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -28,6 +29,8 @@ public class UserController {
      * @throws Exception
      */
     @RequestMapping("/findAll.do")
+    // 只有 ROLE_ADMIN 角色可以访问
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public ModelAndView findAll() throws Exception {
         ModelAndView mv = new ModelAndView();
         List<UserInfo> userList = userService.findAll();
@@ -58,6 +61,8 @@ public class UserController {
      * @throws Exception
      */
     @RequestMapping("/save.do")
+    // 只有 tom 这个用户可以访问
+    @PreAuthorize("authentication.principal.username == 'tom'")
     public String save(UserInfo userInfo) throws Exception {
         userService.save(userInfo);
         return "redirect:findAll.do";
