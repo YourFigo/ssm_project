@@ -29,5 +29,10 @@ public class RoleServiceImpl implements IRoleService {
     public List<Role> findAll() throws Exception{
         return roleDao.findAll();
     }
+
+    @Override
+    public Role findById(String roleId) {
+        return roleDao.findById(roleId);
+    }
 }
 
