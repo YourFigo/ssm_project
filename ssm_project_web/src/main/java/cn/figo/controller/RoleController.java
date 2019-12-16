@@ -72,4 +72,17 @@ public class RoleController {
         return mv;
     }
 
+    /**
+     * 给单个角色添加权限
+     * @param roleId
+     * @param permissionIds
+     * @return
+     * @throws Exception
+     */
+    @RequestMapping("/addPermissionToRole.do")
+    public String addPermissionToRole(@RequestParam(name = "roleId", required = true) String roleId, @RequestParam(name = "ids", required = true) String[] permissionIds) throws Exception {
+        roleService.addPermissionToRole(roleId, permissionIds);
+        return "redirect:findAll.do";
+    }
+
 }
