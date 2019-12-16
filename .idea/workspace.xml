@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e53eb657-29ff-46ac-9a1d-8ebd434f8404" name="Default Changelist" comment="ssm项目 jsr250 方法级别的权限控制，给controller加角色权限">
+    <list default="true" id="e53eb657-29ff-46ac-9a1d-8ebd434f8404" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_project_web/src/main/java/cn/figo/controller/OrdersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_web/src/main/java/cn/figo/controller/OrdersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_project_web/src/main/java/cn/figo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_web/src/main/java/cn/figo/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ssm_project_web/src/main/resources/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_web/src/main/resources/spring-security.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages/aside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages/aside.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages/header.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -262,7 +262,7 @@
       <workItem from="1576327721631" duration="114000" />
       <workItem from="1576335131859" duration="235000" />
       <workItem from="1576407535165" duration="4894000" />
-      <workItem from="1576500393802" duration="5875000" />
+      <workItem from="1576500393802" duration="7255000" />
     </task>
     <task id="LOCAL-00001" summary="readme update">
       <created>1575728087259</created>
@@ -481,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576510175942</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="ssm项目 PreAuthorize、Secured 权限控制">
+      <created>1576511624138</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1576511624138</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -502,7 +509,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ssm项目 main页面" />
     <MESSAGE value="ssm项目 产品新增" />
     <MESSAGE value="ssm项目 订单页及功能" />
     <MESSAGE value="ssm项目 订单页分页查询" />
@@ -527,6 +533,7 @@
     <MESSAGE value="ssm项目 根据role的id查询未添加的权限" />
     <MESSAGE value="ssm项目 给角色添加权限并保存" />
     <MESSAGE value="ssm项目 jsr250 方法级别的权限控制，给controller加角色权限" />
-    <option name="LAST_COMMIT_MESSAGE" value="ssm项目 jsr250 方法级别的权限控制，给controller加角色权限" />
+    <MESSAGE value="ssm项目 PreAuthorize、Secured 权限控制" />
+    <option name="LAST_COMMIT_MESSAGE" value="ssm项目 PreAuthorize、Secured 权限控制" />
   </component>
 </project>
