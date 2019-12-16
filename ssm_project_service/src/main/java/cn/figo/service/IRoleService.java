@@ -1,5 +1,6 @@
 package cn.figo.service;
 
+import cn.figo.domain.Permission;
 import cn.figo.domain.Role;
 
 import java.util.List;
@@ -15,4 +16,6 @@ public interface IRoleService {
     void save(Role role) throws Exception;
 
     Role findById(String roleId) throws  Exception;
+
+    List<Permission> findOtherPermissions(String roleId) throws Exception;
 }

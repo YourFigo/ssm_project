@@ -59,6 +59,7 @@ public interface IUserDao {
     @Select("select * from role where id not in (select roleId from users_role where userId=#{userId})")
     List<Role> findOtherRoles(String userId);
 
+    // 基本数据类型和String时，#{}中的内容是可以随意写的，因此需要指定参数名
     @Insert("insert into users_role(userId,roleId) values(#{userId},#{roleId})")
     void addRoleToUser(@Param("userId") String userId, @Param("roleId") String roleId);
 }

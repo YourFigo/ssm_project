@@ -1,5 +1,6 @@
 package cn.figo.dao;
 
+import cn.figo.domain.Permission;
 import cn.figo.domain.Role;
 import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Repository;
@@ -42,4 +43,7 @@ public interface IRoleDao {
             @Result(property = "permissions",column = "id",javaType = java.util.List.class,many = @Many(select = "cn.figo.dao.IPermissionDao.findPermissionByRoleId"))
     })
     Role findById(String roleId);
+
+    @Select("select * from permission where id not in (select permissionId from role_permission where roleId=#{roleId})")
+    List<Permission> findOtherPermissions(String roleId);
 }

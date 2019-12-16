@@ -1,6 +1,7 @@
 package cn.figo.service.impl;
 
 import cn.figo.dao.IRoleDao;
+import cn.figo.domain.Permission;
 import cn.figo.domain.Role;
 import cn.figo.service.IRoleService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,5 +35,11 @@ public class RoleServiceImpl implements IRoleService {
     public Role findById(String roleId) {
         return roleDao.findById(roleId);
     }
+
+    @Override
+    public List<Permission> findOtherPermissions(String roleId) {
+        return roleDao.findOtherPermissions(roleId);
+    }
+
 }
 

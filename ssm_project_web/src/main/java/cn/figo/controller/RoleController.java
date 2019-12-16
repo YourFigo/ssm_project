@@ -1,5 +1,6 @@
 package cn.figo.controller;
 
+import cn.figo.domain.Permission;
 import cn.figo.domain.Role;
 import cn.figo.service.IRoleService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -51,4 +52,24 @@ public class RoleController {
         mv.setViewName("role-show");
         return mv;
     }
+
+    /**
+     * 根据roleId查询role，并查询出可以添加的权限
+     * @param roleId
+     * @return
+     * @throws Exception
+     */
+    @RequestMapping("/findRoleByIdAndAllPermission.do")
+    public ModelAndView findRoleByIdAndAllPermission(@RequestParam(name = "id", required = true) String roleId) throws Exception {
+        ModelAndView mv = new ModelAndView();
+        //根据roleId查询role
+        Role role = roleService.findById(roleId);
+        //根据roleId查询可以添加的权限
+        List<Permission> otherPermissions = roleService.findOtherPermissions(roleId);
+        mv.addObject("role", role);
+        mv.addObject("permissionList", otherPermissions);
+        mv.setViewName("role-permission-add");
+        return mv;
+    }
+
 }
