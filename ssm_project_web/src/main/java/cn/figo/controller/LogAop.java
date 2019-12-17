@@ -28,7 +28,6 @@ public class LogAop {
     // request对象需要 在web.xml中配置监听器 org.springframework.web.context.request.RequestContextListener
     @Autowired
     private HttpServletRequest request;
-
     @Autowired
     private ISysLogService sysLogService;
 
@@ -100,8 +99,6 @@ public class LogAop {
                     // SecurityContext context = request.getSession().getAttribute("SPRING_SECURITY_CONTEXT");
                     User user = (User) context.getAuthentication().getPrincipal();
                     String username = user.getUsername();
-
-
 
                     //将日志相关信息封装到SysLog对象
                     SysLog sysLog = new SysLog();
