@@ -176,3 +176,14 @@ insert into role_permission values ('2D797608E2AB46C6B28C275A1A05C36A','1111');
 insert into role_permission values ('2151151E13D045F9BFC4F004026A1197','2222');
 
 select * from permission where id in (select permissionId from role_permission where roleid = '1111');
+
+
+CREATE TABLE sysLog(
+    id VARCHAR2(32) default SYS_GUID() PRIMARY KEY,
+    visitTime timestamp,
+    username VARCHAR2(50),
+    ip VARCHAR2(30),
+    url VARCHAR2(50),
+    executionTime int,
+    method VARCHAR2(200)
+);

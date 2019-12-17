@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e53eb657-29ff-46ac-9a1d-8ebd434f8404" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ssm_project_dao/src/main/java/cn/figo/dao/ISysLogDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_domain/src/main/java/cn/figo/domain/SysLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/ISysLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/impl/SysLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_web/src/main/java/cn/figo/controller/LogAop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages/syslog-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_project_web/src/main/resources/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_web/src/main/resources/spring-security.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages/aside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages/aside.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all.sql" beforeDir="false" afterPath="$PROJECT_DIR$/all.sql" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -51,7 +56,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ssm_project_web/src/main/webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -60,8 +65,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\1_Code\java\ssm_project\ssm_project_web\src\main\webapp" />
       <recent name="D:\1_Code\java\ssm_project\ssm_project_web\src\main\webapp\pages" />
+      <recent name="D:\1_Code\java\ssm_project\ssm_project_web\src\main\webapp" />
       <recent name="D:\1_Code\java\ssm_project\springSecurityTest\src\main\webapp" />
       <recent name="D:\1_Code\java\ssm_project\ssm_project_web\src\main\resources" />
       <recent name="D:\1_Code\java\ssm_project\ssm_project_web\src\main\webapp\img" />
@@ -262,7 +267,8 @@
       <workItem from="1576327721631" duration="114000" />
       <workItem from="1576335131859" duration="235000" />
       <workItem from="1576407535165" duration="4894000" />
-      <workItem from="1576500393802" duration="7255000" />
+      <workItem from="1576500393802" duration="7564000" />
+      <workItem from="1576581244168" duration="2827000" />
     </task>
     <task id="LOCAL-00001" summary="readme update">
       <created>1575728087259</created>
@@ -488,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576511624138</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="ssm项目 页面权限控制 authentication、authorize">
+      <created>1576513004995</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1576513004995</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -509,7 +522,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ssm项目 产品新增" />
     <MESSAGE value="ssm项目 订单页及功能" />
     <MESSAGE value="ssm项目 订单页分页查询" />
     <MESSAGE value="ssm项目 所有sql" />
@@ -534,6 +546,7 @@
     <MESSAGE value="ssm项目 给角色添加权限并保存" />
     <MESSAGE value="ssm项目 jsr250 方法级别的权限控制，给controller加角色权限" />
     <MESSAGE value="ssm项目 PreAuthorize、Secured 权限控制" />
-    <option name="LAST_COMMIT_MESSAGE" value="ssm项目 PreAuthorize、Secured 权限控制" />
+    <MESSAGE value="ssm项目 页面权限控制 authentication、authorize" />
+    <option name="LAST_COMMIT_MESSAGE" value="ssm项目 页面权限控制 authentication、authorize" />
   </component>
 </project>
