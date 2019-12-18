@@ -4,6 +4,7 @@ import cn.figo.dao.IUserDao;
 import cn.figo.domain.Role;
 import cn.figo.domain.UserInfo;
 import cn.figo.service.IUserService;
+import com.github.pagehelper.PageHelper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.User;
@@ -36,6 +37,13 @@ public class UserServiceImpl implements IUserService{
      */
     @Override
     public List<UserInfo> findAll() throws Exception {
+        return userDao.findAll();
+    }
+
+    @Override
+    public List<UserInfo> findAll(int page, int size) throws Exception {
+        //参数pageNum 是页码值   参数pageSize 代表是每页显示条数
+        PageHelper.startPage(page, size);
         return userDao.findAll();
     }
 

@@ -3,6 +3,7 @@ package cn.figo.controller;
 import cn.figo.domain.Role;
 import cn.figo.domain.UserInfo;
 import cn.figo.service.IUserService;
+import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
@@ -28,7 +29,7 @@ public class UserController {
      * @return
      * @throws Exception
      */
-    @RequestMapping("/findAll.do")
+    /*@RequestMapping("/findAll.do")
     // 只有 ROLE_ADMIN 角色可以访问
     @PreAuthorize("hasRole('ROLE_ADMIN')")
     public ModelAndView findAll() throws Exception {
@@ -36,6 +37,19 @@ public class UserController {
         List<UserInfo> userList = userService.findAll();
         mv.addObject("userList", userList);
         mv.setViewName("user-list");
+        return mv;
+    }*/
+
+    @RequestMapping("/findAll.do")
+    // 只有 ROLE_ADMIN 角色可以访问
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
+    public ModelAndView findAll(@RequestParam(name = "page", required = true, defaultValue = "1") Integer page,
+                                @RequestParam(name = "size", required = true, defaultValue = "3") Integer size) throws Exception {
+        ModelAndView mv = new ModelAndView();
+        List<UserInfo> userList = userService.findAll(page, size);
+        PageInfo pageInfo=new PageInfo(userList);
+        mv.addObject("pageInfo",pageInfo);
+        mv.setViewName("user-page-list");
         return mv;
     }
 

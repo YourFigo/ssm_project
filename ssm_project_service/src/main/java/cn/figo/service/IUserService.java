@@ -16,6 +16,8 @@ public interface IUserService extends UserDetailsService {
 
     List<UserInfo> findAll() throws Exception;
 
+    public List<UserInfo> findAll(int page, int size) throws Exception;
+
     public UserInfo findById(String id) throws Exception;
 
     public void save(UserInfo userInfo) throws Exception;
