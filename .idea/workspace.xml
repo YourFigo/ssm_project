@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e53eb657-29ff-46ac-9a1d-8ebd434f8404" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages/syslog-page-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/ISysLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/ISysLogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/impl/SysLogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/impl/SysLogServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_project_web/src/main/java/cn/figo/controller/SysLogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_web/src/main/java/cn/figo/controller/SysLogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages/orders-page-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages/orders-page-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages/product-page-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages/product-page-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_project_domain/src/main/java/cn/figo/domain/SysLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_domain/src/main/java/cn/figo/domain/SysLog.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -267,7 +261,7 @@
       <workItem from="1576407535165" duration="4894000" />
       <workItem from="1576500393802" duration="7564000" />
       <workItem from="1576581244168" duration="4567000" />
-      <workItem from="1576670363191" duration="5537000" />
+      <workItem from="1576670363191" duration="6054000" />
     </task>
     <task id="LOCAL-00001" summary="readme update">
       <created>1575728087259</created>
@@ -549,7 +543,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576680223050</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="ssm项目 日志 分页">
+      <created>1576681458657</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1576681458657</updated>
+    </task>
+    <task id="LOCAL-00042" summary="ssm项目 页面小改">
+      <created>1576681476432</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1576681476432</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -570,8 +578,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ssm项目 查询所有用户" />
-    <MESSAGE value="ssm项目 新增用户" />
     <MESSAGE value="ssm项目 spring-security" />
     <MESSAGE value="spring-security 测试" />
     <MESSAGE value="spring-security 测试 本地登录页" />
@@ -595,6 +601,8 @@
     <MESSAGE value="ssm项目 user 分页" />
     <MESSAGE value="ssm项目 role 分页" />
     <MESSAGE value="ssm项目 permission 分页" />
-    <option name="LAST_COMMIT_MESSAGE" value="ssm项目 permission 分页" />
+    <MESSAGE value="ssm项目 日志 分页" />
+    <MESSAGE value="ssm项目 页面小改" />
+    <option name="LAST_COMMIT_MESSAGE" value="ssm项目 页面小改" />
   </component>
 </project>

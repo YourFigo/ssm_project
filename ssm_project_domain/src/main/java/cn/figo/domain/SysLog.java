@@ -1,5 +1,7 @@
 package cn.figo.domain;
 
+import cn.figo.utils.DateUtils;
+
 import java.util.Date;
 
 /**
@@ -33,6 +35,9 @@ public class SysLog {
     }
 
     public String getVisitTimeStr() {
+        if(visitTime!=null){
+            visitTimeStr= DateUtils.date2String(visitTime,"yyyy-MM-dd HH:mm");
+        }
         return visitTimeStr;
     }
 
