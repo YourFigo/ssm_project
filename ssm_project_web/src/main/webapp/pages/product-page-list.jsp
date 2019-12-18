@@ -73,9 +73,9 @@
 				<small>数据列表</small>
 			</h1>
 			<ol class="breadcrumb">
-				<li><a href="#"><i class="fa fa-dashboard"></i> 首页</a></li>
-				<li><a href="#">数据管理</a></li>
-				<li class="active">数据列表</li>
+				<li><a href="${pageContext.request.contextPath}/index.jsp"><i class="fa fa-dashboard"></i> 首页</a></li>
+				<li><a href="${pageContext.request.contextPath}/product/findAll.do">产品管理</a></li>
+				<li class="active">全部产品</li>
 			</ol>
 		</section>
 		<!-- 内容头部 /-->
@@ -102,7 +102,9 @@
 									<button type="button" class="btn btn-default" title="删除"><i class="fa fa-trash-o"></i> 删除</button>
 									<button type="button" class="btn btn-default" title="开启"><i class="fa fa-check"></i> 开启</button>
 									<button type="button" class="btn btn-default" title="屏蔽"><i class="fa fa-ban"></i> 屏蔽</button>
-									<button type="button" class="btn btn-default" title="刷新"><i class="fa fa-refresh"></i> 刷新</button>
+									<button type="button" class="btn btn-default" title="刷新" onclick="window.location.reload()">
+										<i class="fa fa-refresh"></i> 刷新
+									</button>
 								</div>
 							</div>
 						</div>
@@ -153,7 +155,6 @@
 								</tr>
 							</c:forEach>
 
-
 							</tbody>
 							<!--
                         <tfoot>
@@ -167,28 +168,6 @@
                         </tfoot>-->
 						</table>
 						<!--数据列表/-->
-
-						<!--工具栏-->
-						<div class="pull-left">
-							<div class="form-group form-inline">
-								<div class="btn-group">
-									<button type="button" class="btn btn-default" title="新建" onclick="location.href='${pageContext.request.contextPath}/pages/product-add.jsp'">
-										<i class="fa fa-file-o"></i> 新建
-									</button>
-									<button type="button" class="btn btn-default" title="删除"><i class="fa fa-trash-o"></i> 删除</button>
-									<button type="button" class="btn btn-default" title="开启"><i class="fa fa-check"></i> 开启</button>
-									<button type="button" class="btn btn-default" title="屏蔽"><i class="fa fa-ban"></i> 屏蔽</button>
-									<button type="button" class="btn btn-default" title="刷新"><i class="fa fa-refresh"></i> 刷新</button>
-								</div>
-							</div>
-						</div>
-						<div class="box-tools pull-right">
-							<div class="has-feedback">
-								<input type="text" class="form-control input-sm" placeholder="搜索">
-								<span class="glyphicon glyphicon-search form-control-feedback"></span>
-							</div>
-						</div>
-						<!--工具栏/-->
 
 					</div>
 					<!-- 数据表格 /-->
