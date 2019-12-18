@@ -15,6 +15,6 @@ public interface ISysLogDao {
     @Insert("insert into syslog(visitTime,username,ip,url,executionTime,method) values(#{visitTime},#{username},#{ip},#{url},#{executionTime},#{method})")
     public void save(SysLog sysLog) throws Exception;
 
-    @Select("select * from sysLog")
+    @Select("select * from sysLog order by visitTime desc")
     List<SysLog> findAll() throws Exception;
 }

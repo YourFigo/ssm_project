@@ -63,7 +63,7 @@ public class LogAop {
             for (int i = 0; i < args.length; i++) {
                 classArgs[i] = args[i].getClass();
             }
-            clazz.getMethod(methodName, classArgs);
+            method = clazz.getMethod(methodName, classArgs);
         }
     }
 
