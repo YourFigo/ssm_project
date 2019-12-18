@@ -3,6 +3,7 @@ package cn.figo.controller;
 import cn.figo.domain.Permission;
 import cn.figo.domain.Role;
 import cn.figo.service.IRoleService;
+import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -28,12 +29,23 @@ public class RoleController {
         return "redirect:findAll.do";
     }
 
-    @RequestMapping("/findAll.do")
+    /*@RequestMapping("/findAll.do")
     public ModelAndView findAll() throws Exception {
         ModelAndView mv = new ModelAndView();
         List<Role> roleList = roleService.findAll();
         mv.addObject("roleList", roleList);
         mv.setViewName("role-list");
+        return mv;
+    }*/
+
+    @RequestMapping("/findAll.do")
+    public ModelAndView findAll(@RequestParam(name = "page", required = true, defaultValue = "1") Integer page,
+                                @RequestParam(name = "size", required = true, defaultValue = "3") Integer size) throws Exception {
+        ModelAndView mv = new ModelAndView();
+        List<Role> roleList = roleService.findAll(page,size);
+        PageInfo pageInfo=new PageInfo(roleList);
+        mv.addObject("pageInfo",pageInfo);
+        mv.setViewName("role-page-list");
         return mv;
     }
 

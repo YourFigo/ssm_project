@@ -4,6 +4,7 @@ import cn.figo.dao.IRoleDao;
 import cn.figo.domain.Permission;
 import cn.figo.domain.Role;
 import cn.figo.service.IRoleService;
+import com.github.pagehelper.PageHelper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -28,6 +29,13 @@ public class RoleServiceImpl implements IRoleService {
 
     @Override
     public List<Role> findAll() throws Exception{
+        return roleDao.findAll();
+    }
+
+    @Override
+    public List<Role> findAll(int page, int size) throws Exception {
+        //参数pageNum 是页码值   参数pageSize 代表是每页显示条数
+        PageHelper.startPage(page, size);
         return roleDao.findAll();
     }
 

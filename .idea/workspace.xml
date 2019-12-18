@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e53eb657-29ff-46ac-9a1d-8ebd434f8404" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages/user-page-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_project_web/src/main/java/cn/figo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_web/src/main/java/cn/figo/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_project_web/src/main/webapp/pages/role-page-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/IRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/IRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_service/src/main/java/cn/figo/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_project_web/src/main/java/cn/figo/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_project_web/src/main/java/cn/figo/controller/RoleController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -265,7 +264,7 @@
       <workItem from="1576407535165" duration="4894000" />
       <workItem from="1576500393802" duration="7564000" />
       <workItem from="1576581244168" duration="4567000" />
-      <workItem from="1576670363191" duration="3566000" />
+      <workItem from="1576670363191" duration="3924000" />
     </task>
     <task id="LOCAL-00001" summary="readme update">
       <created>1575728087259</created>
@@ -526,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576678599227</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="ssm项目 user 分页">
+      <created>1576679319272</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1576679319272</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -547,7 +553,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ssm项目 分页订单表查询所有" />
     <MESSAGE value="ssm项目 查看订单详情" />
     <MESSAGE value="ssm项目 用户相关sql" />
     <MESSAGE value="ssm项目 查询所有用户" />
@@ -572,6 +577,7 @@
     <MESSAGE value="ssm项目 AoP日志查询的controller" />
     <MESSAGE value="ssm项目 update readme" />
     <MESSAGE value="ssm项目 product 分页" />
-    <option name="LAST_COMMIT_MESSAGE" value="ssm项目 product 分页" />
+    <MESSAGE value="ssm项目 user 分页" />
+    <option name="LAST_COMMIT_MESSAGE" value="ssm项目 user 分页" />
   </component>
 </project>
