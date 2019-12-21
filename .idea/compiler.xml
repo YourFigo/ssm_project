@@ -7,9 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ssm_project_dao" />
-        <module name="ssm_project_utils" />
-        <module name="ssm_project_domain" />
         <module name="springSecurityTest" />
+        <module name="ssm_project_domain" />
+        <module name="ssm_project_utils" />
         <module name="ssm_project_web" />
         <module name="ssm_project_service" />
       </profile>
