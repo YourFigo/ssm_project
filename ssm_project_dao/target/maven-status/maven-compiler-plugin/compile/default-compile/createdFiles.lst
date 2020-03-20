@@ -1,0 +1,8 @@
+cn\figo\dao\IRoleDao.class
+cn\figo\dao\IUserDao.class
+cn\figo\dao\ITravellerDao.class
+cn\figo\dao\IPermissionDao.class
+cn\figo\dao\IProductDao.class
+cn\figo\dao\ISysLogDao.class
+cn\figo\dao\IMemberDao.class
+cn\figo\dao\IOrdersDao.class

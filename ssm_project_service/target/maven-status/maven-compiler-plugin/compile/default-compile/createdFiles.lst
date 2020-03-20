@@ -1,0 +1,12 @@
+cn\figo\service\IRoleService.class
+cn\figo\service\impl\PermissionServiceImpl.class
+cn\figo\service\impl\ProductServiceImpl.class
+cn\figo\service\impl\RoleServiceImpl.class
+cn\figo\service\impl\SysLogServiceImpl.class
+cn\figo\service\IPermissionService.class
+cn\figo\service\IUserService.class
+cn\figo\service\IProductService.class
+cn\figo\service\ISysLogService.class
+cn\figo\service\impl\OrderServiceImpl.class
+cn\figo\service\impl\UserServiceImpl.class
+cn\figo\service\IOrdersService.class

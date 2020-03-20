@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e53eb657-29ff-46ac-9a1d-8ebd434f8404" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -262,6 +263,10 @@
       <workItem from="1576500393802" duration="7564000" />
       <workItem from="1576581244168" duration="4567000" />
       <workItem from="1576670363191" duration="7997000" />
+      <workItem from="1576943251757" duration="177000" />
+      <workItem from="1576986736103" duration="1190000" />
+      <workItem from="1577105105990" duration="1188000" />
+      <workItem from="1577277339881" duration="832000" />
     </task>
     <task id="LOCAL-00001" summary="readme update">
       <created>1575728087259</created>
@@ -571,7 +576,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576683069445</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="ssm项目">
+      <created>1576943289831</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1576943289831</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -592,7 +604,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="spring-security 用户的登录和注销" />
     <MESSAGE value="ssm项目 用户的新增和密码的加密处理" />
     <MESSAGE value="ssm项目 用户角色和权限关联查询" />
     <MESSAGE value="ssm项目 角色的查询和添加" />
@@ -617,7 +628,8 @@
     <MESSAGE value="ssm项目 日志domain访问时间字符串小改" />
     <MESSAGE value="ssm项目 日志降序排序" />
     <MESSAGE value="ssm项目 日志bug处理 降序排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="ssm项目 日志bug处理 降序排序" />
+    <MESSAGE value="ssm项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="ssm项目" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

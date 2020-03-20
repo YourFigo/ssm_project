@@ -1,0 +1,7 @@
+cn\figo\controller\OrdersController.class
+cn\figo\controller\PermissionController.class
+cn\figo\controller\SysLogController.class
+cn\figo\controller\UserController.class
+cn\figo\controller\RoleController.class
+cn\figo\controller\LogAop.class
+cn\figo\controller\ProductController.class

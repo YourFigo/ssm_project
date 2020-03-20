@@ -1,0 +1,8 @@
+cn\figo\domain\SysLog.class
+cn\figo\domain\Role.class
+cn\figo\domain\Permission.class
+cn\figo\domain\UserInfo.class
+cn\figo\domain\Orders.class
+cn\figo\domain\Product.class
+cn\figo\domain\Member.class
+cn\figo\domain\Traveller.class
